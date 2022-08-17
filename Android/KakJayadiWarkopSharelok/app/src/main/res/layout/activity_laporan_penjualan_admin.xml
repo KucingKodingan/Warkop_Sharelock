@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.admin.ListLaporanPenjualanAdminActivity">
+
+    <!-- Sudah Login -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/pesananSudahLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp">
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pesanan"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                android:id="@+id/belumPesan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum Pesan"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/header"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewAdminListPesananBelumPesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/belumPesan"
+                android:layout_marginTop="10dp"
+                android:nestedScrollingEnabled="false"/>
+            <TextView
+                android:id="@+id/belumBayar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum Bayar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerViewAdminListPesananBelumPesan"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewAdminListPesananBelumBayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/belumBayar"
+                android:layout_marginTop="10dp"
+                android:nestedScrollingEnabled="false"/>
+            <TextView
+                android:id="@+id/sudahBayar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah Bayar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerViewAdminListPesananBelumBayar"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewAdminListPesananSudahBayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/sudahBayar"
+                android:layout_marginTop="10dp"
+                android:nestedScrollingEnabled="false"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

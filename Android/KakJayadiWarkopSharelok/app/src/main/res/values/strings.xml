@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Sharelok</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- String -->
+    <string-array name="kategori">
+        <item>Minuman Ice</item>
+        <item>Minuman Hot</item>
+        <item>Makanan</item>
+    </string-array>
+
+    <string-array name="jenis_menu_minuman">
+        <item>Non Coffee</item>
+        <item>Coffee</item>
+        <item>Fresh Series</item>
+        <item>Tea</item>
+        <item>Regal Series</item>
+        <item>Moctail</item>
+        <item>Banana Series</item>
+        <item>Noddle Series</item>
+    </string-array>
+    <string-array name="jenis_menu_makanan">
+        <item>Makanan Berat</item>
+        <item>Makanan Ringan</item>
+        <item>Rice Series</item>
+    </string-array>
+
+    <string-array name="kapasitas">
+        <item>ada</item>
+        <item>habis</item>
+    </string-array>
+
+    <string-array name="harga">
+        <item>5000</item>
+        <item>7000</item>
+        <item>11000</item>
+        <item>13000</item>
+        <item>15000</item>
+        <item>17000</item>
+        <item>19000</item>
+        <item>21000</item>
+        <item>23000</item>
+        <item>25000</item>
+    </string-array>
+
+    <string-array name="sebagai">
+        <item>pelanggan</item>
+        <item>kasir</item>
+    </string-array>
+
+    <string-array name="shift">
+        <item>siang</item>
+        <item>malam</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clPesananItemList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="3dp"
+    android:elevation="2dp"
+    android:background="@drawable/bg_list_pesanan_item">
+
+    <TextView
+        android:id="@+id/tvNamaPemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dwi Sari Kartika Hasan"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvJumlahPesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:text="25 pesanan"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvTotalHargaPesanan"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamaPemesan"/>
+
+    <TextView
+        android:id="@+id/sambung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/tvJumlahPesanan"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamaPemesan"/>
+
+    <TextView
+        android:id="@+id/tvTotalHargaPesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:text="Rp.45.000"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/sambung"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamaPemesan"/>
+
+    <TextView
+        android:id="@+id/tvWaktuPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:text="2022-08-04 23.50"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:gravity="right"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalHargaPesanan"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

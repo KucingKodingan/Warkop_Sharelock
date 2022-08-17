@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="30dp"
+    android:paddingBottom="20dp"
+    android:background="@drawable/bg_menu_item">
+
+    <TextView
+        android:id="@+id/tVPreviewPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Gambar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/cVPesan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cVPesan"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        app:layout_constraintBottom_toTopOf="@id/linearLayoutButton"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tVPreviewPesan">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <ImageView
+                android:id="@+id/gambarMenu"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/no_image"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cVPesan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/buttonKeluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="Keluar"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            app:iconGravity="textEnd"
+            android:background="@drawable/bg_btn_batal"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

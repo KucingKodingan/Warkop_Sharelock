@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable-v24/bg_dosen_item.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable-v24/bg_list_menu_container.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable-v24/bg_menu_item.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/aa.xml" value="0.1435" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_ada_pesanan.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_btn_batal.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_btn_cari_rekomendasi.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_circle_image.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_item_menu_card.xml" value="0.1435" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_item_menu_image.xml" value="0.1435" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_list_item_menu.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_list_item_menu_habis.xml" value="0.1205" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_navbar_icon.xml" value="0.1435" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_navbar_icon_color.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_navbar_main_activity.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_pesanan.xml" value="0.122" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_plr8_ptb5_c8.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_plr8_ptb5_c8_bwhite.xml" value="0.1435" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_profile_menu.xml" value="0.1435" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/button_fragment.xml" value="0.1065" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/button_fragment_rekomendasi_menu.xml" value="0.1065" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/button_plr8_ptb5_c8.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/button_plr8_ptb5_c8_bwhite.xml" value="0.1435" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1185" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_account_circle_24_aktif.xml" value="0.1185" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1185" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1185" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_home_24_aktif.xml" value="0.1185" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_library_books_24.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_library_books_24_aktif.xml" value="0.1185" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_wifi_off_24.xml" value="0.133" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_profile_menu.xml" value="0.2" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_registrasi.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_rekomendasi.xml" value="0.22" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_chat.xml" value="0.21" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_pesanan_menu.xml" value="0.22" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_rekomendasi_menu.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/fragment_akun.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/fragment_home.xml" value="0.3659889094269871" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/fragment_pesanan.xml" value="0.2" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_alert_dialog_list_pesanan.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_dropdown.xml" value="0.1" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_dropdown_kategori.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_list_menu.xml" value="0.25" />
+        <entry key="..\:/Users/MUNIR/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/xml/xml.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable-v24/bg_list_menu_container.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable-v24/bg_menu_item.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable-v24/bg_transparant.xml" value="0.223" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_ada_pesanan.xml" value="0.1935" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_all.xml" value="0.139" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_btn_batal.xml" value="0.2415" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_btn_cari_rekomendasi.xml" value="0.2415" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_circle_image.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_coklat.xml" value="0.139" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_dosen_item.xml" value="0.139" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_edit.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_item_menu_image.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_list_admin.xml" value="0.139" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_list_item_menu.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_list_item_menu_habis.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_list_pesanan_item.xml" value="0.139" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_logout.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/bg_navbar_icon.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.139" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/drawable/ic_baseline_arrow_circle_down_24.xml" value="0.231" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_edit.xml" value="0.2" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_home_admin.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_laporan_penjualan_admin.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_list_akun_user_admin.xml" value="0.2858974358974359" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_login.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_main.xml" value="0.1735042735042735" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_menu_admin.xml" value="0.25" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_profile_akun.xml" value="0.25" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_profile_menu.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_profile_pesanan.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/activity_registrasi.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_admin_hapus_menu.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_admin_tambah_menu.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_loading.xml" value="0.22" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_pesanan_kasir.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_pesanan_menu.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_rekomendasi_menu.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/alert_dialog_zoom_image.xml" value="0.2965811965811966" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/dosen_item_list.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/fragment_akun.xml" value="0.25" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/fragment_pesanan.xml" value="0.25" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_alert_dialog_list_pesanan.xml" value="0.25" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_dropdown.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_list_akun.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_list_menu.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_list_pesanan.xml" value="0.33" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_menu_admin.xml" value="0.3072847682119205" />
+        <entry key="..\:/Users/hp5cd/AndroidStudioProjects/KakJayadiWarkopSharelok/app/src/main/res/layout/item_profile_pesanan.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3072847682119205" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

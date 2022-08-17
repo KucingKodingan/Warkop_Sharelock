@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tvMenuAdminNoMenu"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+            android:id="@+id/tvMenuAdminNamaMenu"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Green Tea Ice makok"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvMenuAdminNoMenu"/>
+        <TextView
+            android:id="@+id/tvMenuAdminKategoriMenu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Minuman Ice"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvMenuAdminNamaMenu"/>
+        <TextView
+            android:id="@+id/tvMenuAdminJenisMenu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Non Coffe"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvMenuAdminKategoriMenu"/>
+        <TextView
+            android:id="@+id/tvMenuAdminHargaMenu"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Rp.15.0000"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvMenuAdminJenisMenu"/>
+        <ImageView
+            android:id="@+id/imageMenuAdminGambarMenu"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gambar_logo"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvMenuAdminHargaMenu"/>
+
+        <TextView
+            android:id="@+id/tvMenuAdminKapasitasMenu"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Kapasitas"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/imageMenuAdminGambarMenu"/>
+
+        <LinearLayout
+            android:id="@+id/linearSetting"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvMenuAdminKapasitasMenu"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/buttonEditMenuAdmin"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/kuning"/>
+
+            <ImageView
+                android:id="@+id/buttonHapusMenuAdmin"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_delete_24"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:background="@color/merah"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="@+id/tvMenuAdminNoMenu"
+            app:layout_constraintEnd_toEndOf="@+id/linearSetting"
+            app:layout_constraintTop_toBottomOf="@+id/linearSetting"
+            android:backgroundTint="@color/black"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</HorizontalScrollView>
